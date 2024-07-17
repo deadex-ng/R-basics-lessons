@@ -1,6 +1,7 @@
 # R-basics-lessons
 
 Session 1
+
 Part 1 
 - creating variables
     - numbers and strings
