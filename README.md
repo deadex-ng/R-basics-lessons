@@ -48,3 +48,22 @@ Part 2
     -  mat[c(1,3),2]
     -  mat[2,]
     -  mat*10
+
+Session 2 
+
+Creating Visuals in R 
+
+Bar Plot
+- create a data frame 
+    - friends <- data.frame(num <-c(2,3,4,5,6), name <-c("Andrew","Ben","Chikondi","Duncan","Evelyn"))
+- show the data frame 
+    - friends
+- load the ggplot package
+    - library(ggplot2)
+- Install the ggplot package if not installed
+    - install.packages("ggplot2")
+- Create a bar plot
+    - ggplot(data=friends, aes(x=name, y=num)) + geom_bar(stat = "identity")
+- Create a horizontal bar plot
+    - ggplot(data=friends, aes(x=name, y=num)) + geom_bar(stat = "identity") + coord_flip()
+ 
