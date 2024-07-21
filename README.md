@@ -48,7 +48,9 @@ Part 2
     -  mat[c(1,3),2]
     -  mat[2,]
     -  mat*10
-
+- Exercise
+  - create matrix by column
+  - create a matrix from multiple vectors
 ## Session 2 
 
 Creating Visuals in R 
