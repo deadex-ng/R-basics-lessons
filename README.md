@@ -1,6 +1,6 @@
 # R-basics-lessons
 
-Session 1
+## Session 1
 
 Part 1 
 - creating variables
@@ -49,7 +49,7 @@ Part 2
     -  mat[2,]
     -  mat*10
 
-Session 2 
+## Session 2 
 
 Creating Visuals in R 
 
