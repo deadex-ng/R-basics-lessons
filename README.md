@@ -66,4 +66,10 @@ Bar Plot
     - ggplot(data=friends, aes(x=name, y=num)) + geom_bar(stat = "identity")
 - Create a horizontal bar plot
     - ggplot(data=friends, aes(x=name, y=num)) + geom_bar(stat = "identity") + coord_flip()
- 
+
+Line Plot
+
+- Create a data frame
+    - life_exp <- data.frame(avg_life_expectancy <-c(30,33,45,50,60,73,80,90), year <-c(1985,1990,1995,2000,2005,2010,2015,2020))
+- Create a line graph
+    - ggplot(data=life_exp, aes(x=year, y=avg_life_expectancy)) + geom_line() + geom_point()  
