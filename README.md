@@ -72,4 +72,8 @@ Line Plot
 - Create a data frame
     - life_exp <- data.frame(avg_life_expectancy <-c(30,33,45,50,60,73,80,90), year <-c(1985,1990,1995,2000,2005,2010,2015,2020))
 - Create a line graph
-    - ggplot(data=life_exp, aes(x=year, y=avg_life_expectancy)) + geom_line() + geom_point()  
+    - ggplot(data=life_exp, aes(x=year, y=avg_life_expectancy)) + geom_line() + geom_point()
+
+Reources
+- [https://ggplot2.tidyverse.org/reference/aes_linetype_size_shape.html](https://ggplot2.tidyverse.org/reference/aes_linetype_size_shape.html)
+- [https://moderndive.com/2-viz.html](https://moderndive.com/2-viz.html)
