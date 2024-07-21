@@ -79,3 +79,24 @@ Line Plot
 Reources
 - [https://ggplot2.tidyverse.org/reference/aes_linetype_size_shape.html](https://ggplot2.tidyverse.org/reference/aes_linetype_size_shape.html)
 - [https://moderndive.com/2-viz.html](https://moderndive.com/2-viz.html)
+
+## Read files in R
+- read csv file
+   - data <- read.csv("C:\\Users\\coco\\Documents\\data.csv")
+- read excel files using readxl
+   - Install package
+      - install.packages("readxl")
+   - load the package
+      - library("readxl")
+   - read excel file
+      - books_data <- read_excel("C:\\Users\\coco\\Desktop\\Book1.xlsx")
+- read excel files using xlxs
+   - Install package
+      - install.packages("xlsx")
+   - load the package
+      - library("xlsx")
+   - read excel file
+      - data <- read.xlsx("C:\\Users\\coco\\Desktop\\Book1.xlsx", sheetName = "Sheet1")
+        
+
+
