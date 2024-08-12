@@ -100,3 +100,12 @@ Reources
         
 
 
+## Statistics
+
+Statistics in R 
+
+Mean, Median, Mode
+- [https://www.tutorialspoint.com/r/r_mean_median_mode.htm](https://www.tutorialspoint.com/r/r_mean_median_mode.htm)
+
+Linear Regression 
+- [https://www.tutorialspoint.com/r/r_linear_regression.htm](https://www.tutorialspoint.com/r/r_linear_regression.htm)
