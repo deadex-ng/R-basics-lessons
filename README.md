@@ -109,3 +109,17 @@ Mean, Median, Mode
 
 Linear Regression 
 - [https://www.tutorialspoint.com/r/r_linear_regression.htm](https://www.tutorialspoint.com/r/r_linear_regression.htm)
+
+Multiple Regression 
+- [https://www.tutorialspoint.com/r/r_multiple_regression.htm](https://www.tutorialspoint.com/r/r_multiple_regression.htm)
+
+Multiple Regression 
+- [https://www.tutorialspoint.com/r/r_multiple_regression.htm](https://www.tutorialspoint.com/r/r_multiple_regression.htm)
+
+Logistic Regression 
+- [https://www.tutorialspoint.com/r/r_logistic_regression.htm](https://www.tutorialspoint.com/r/r_logistic_regression.htm)
+
+Normal Distribution
+- [https://www.tutorialspoint.com/r/r_normal_distribution.htm](https://www.tutorialspoint.com/r/r_normal_distribution.htm)
+
+Find more [here](https://www.tutorialspoint.com/r/index.htm).
