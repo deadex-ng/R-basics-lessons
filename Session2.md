@@ -10,7 +10,9 @@ patients <- data.frame (
 summary(patients)
 
 patients[1]
+
 patients[["Age"]]
+
 patients$age
 
 # Add row
