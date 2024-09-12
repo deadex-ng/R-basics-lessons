@@ -17,6 +17,7 @@ patients$age
 
 # Add row
 rbind()
+
 new_patients <- rbind(patients, c("Mary", 21))
 
 # Add column
