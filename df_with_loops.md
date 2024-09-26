@@ -53,3 +53,27 @@ while(number <= 10) {
 
 print(sum)
 ```
+
+# Applying while loop
+## Step 1: Create the data frame
+```r
+students <- data.frame(
+  ID = 1:5,
+  Name = c("John", "Alice", "Bob", "Eva", "David"),
+  Score = c(40, 55, 30, 45, 60)
+)
+```
+## Step 2: Use a while loop to modify the Scores
+```r
+i <- 1
+while (i <= nrow(students)) {
+  if (students$Score[i] < 50) {
+    students$Score[i] <- students$Score[i] + 10
+  }
+  i <- i + 1
+}
+```
+## Step 3: Print the modified data frame
+```r
+print(students)
+```
