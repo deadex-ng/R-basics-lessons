@@ -32,3 +32,24 @@ for (i in 1:nrow(df)) {
 print("Data Frame with Bonus Column:")
 print(df)
 ```
+
+# While Loop
+```r
+# variable to store current number
+number = 1
+
+# variable to store current sum
+sum = 0
+
+# while loop to calculate sum
+while(number <= 10) {
+
+  # calculate sum
+  sum = sum + number
+    
+  # increment number by 1
+  number = number + 1
+}
+
+print(sum)
+```
