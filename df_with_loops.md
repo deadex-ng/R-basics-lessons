@@ -77,3 +77,24 @@ while (i <= nrow(students)) {
 ```r
 print(students)
 ```
+
+
+## Repeat loop
+```r 
+x = 1
+
+# Repeat loop
+repeat {
+
+    print(x)
+    
+    # Break statement to terminate if x > 4
+    if (x > 4) {
+        break
+    } 
+    
+    # Increment x by 1
+    x = x + 1
+    
+}
+```
